@@ -1,37 +1,37 @@
 /* Haupt-Hintergrund für die Navigationsleiste */
 .custom-navbar {
-    background-color: #3D3330; /* Dunkles Braun aus dem Bild */
-    padding: 10px 0;
+  background-color: #3d3330; /* Dunkles Braun aus dem Bild */
+  padding: 10px 0;
 }
 
 .custom-navbar .nav-link {
-    color: #FEFBF7 !important;
-    font-size: 1.2rem;
-    font-weight: 500;
-    transition: color 0.3s ease;
+  color: #fefbf7 !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .custom-navbar .nav-link:hover {
-    color: #E8A38B !important; /* Ein sanfter Beige-Ton beim Drüberfahren */
+  color: #e8a38b !important; /* Ein sanfter Beige-Ton beim Drüberfahren */
 }
 
 /* Kontakt-Bereich Styling */
 .contact-info {
-    color: #3D3330;
-    font-family: Arial, sans-serif;
+  color: #3d3330;
+  font-family: Arial, sans-serif;
 }
 
 /* Hero-Sektion (Strandbild) */
 .hero-section {
-    width: 100%;
-    height: 450px; /* Höhe je nach Wunsch anpassen */
-    background-image: url('../../../public/Header.jpg'); /* Hier Pfad zum Yoga-Bild */
-    background-size: cover;
-    background-position: center;
-    border-top: 2px solid #3D3330;
+  width: 100%;
+  height: 450px; /* Höhe je nach Wunsch anpassen */
+  background-image: url('../../../public/Header.jpg'); /* Hier Pfad zum Yoga-Bild */
+  background-size: cover;
+  background-position: center;
+  border-top: 2px solid #3d3330;
 }
 
 /* Falls das Logo eine spezielle Größe braucht */
 .logo-section img {
-    cursor: pointer;
+  cursor: pointer;
 }
