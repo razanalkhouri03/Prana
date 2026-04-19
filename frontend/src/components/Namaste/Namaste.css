@@ -1,0 +1,19 @@
+.namaste-section {
+    color: #3D3330; /* Die dunkle Schriftfarbe */
+    line-height: 1.6;
+}
+
+.namaste-section h2 {
+    font-size: 2.5rem;
+    color: #3D3330;
+}
+
+.namaste-section h4 {
+    color: #3D3330;
+    font-weight: 600;
+}
+
+.namaste-section p {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
