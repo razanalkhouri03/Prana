@@ -36,13 +36,13 @@ function Header() {
             <nav className="custom-navbar">
                 <ul className="nav justify-content-center">
                     <li className="nav-item">
-                        <a className="nav-link text-white mx-4" href="/">Start</a>
+                        <a className="nav-link mx-4" href="/">Start</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white mx-4" href="/preise">Preise</a>
+                        <a className="nav-link mx-4" href="/preise">Preise</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white mx-4" href="/kontakt">Kontakt</a>
+                        <a className="nav-link mx-4" href="/kontakt">Kontakt</a>
                     </li>
                 </ul>
             </nav>

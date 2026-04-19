@@ -1,6 +1,7 @@
 import React from 'react';
 // Importiere die Header-Komponente
 import Header from './components/Header/Header'; 
+import Footer from './components/Footer/Footer';
 // Importiere die Footer-Komponente (sobald dort eine .jsx Datei liegt)
 // import Footer from './components/Footer/Footer'; 
 
@@ -16,7 +17,7 @@ function App() {
       </main>
 
       {/* Hier käme der Footer hin, wenn die Datei fertig ist */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
