@@ -1,9 +1,9 @@
 import React from 'react';
-// Importiere die Header-Komponente
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
 import Namaste from './components/Namaste/Namaste';
 import Main from './components/Main/Main';
+import Formular from './components/Formular/Formular';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <main className="container mt-4">
         <Namaste />
         <Main />
+        <Formular />
       </main>
 
       <Footer />

@@ -1,7 +1,6 @@
 .footer-container {
   background-color: #3d3330;
-  /* Hier ist die neue Textfarbe für alles im Footer: */
-  color: #fefbf7 !important;
+  color: #fefbf7;
   font-family: Arial, sans-serif;
 }
 
@@ -11,20 +10,19 @@
   font-size: 1.2rem;
 }
 
-/* Für die Links (A-Tags), damit sie nicht das Standard-Blau/Weiß von Bootstrap nutzen */
+/* Links (A-Tags)*/
 .footer-container ul li a {
-  color: #fefbf7 !important;
+  color: #fefbf7;
 }
 
 .footer-container ul li a:hover {
-  color: #e8a38b !important;
+  color: #e8a38b;
   transition: 0.3s;
 }
 
 .footer-container address {
   font-style: normal;
   font-size: 0.95rem;
-  /* Erbt die Farbe automatisch vom footer-container */
 }
 
 /* Auch für die Icons */

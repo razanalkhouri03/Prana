@@ -17,13 +17,12 @@ function Main() {
   ];
 
   return (
-    // 1. KEIN container hier am Anfang, damit die Punkte frei sind
+    // 1. KEIN container, damit die Punkte frei sind
     <div className="main-content-wrapper">
       
-      {/* Diese Linie geht jetzt über die volle Breite */}
       <div className="dots-divider"></div>
 
-      {/* 2. NUR die Sektionen kommen in den container */}
+      {/* 2. Sektionen kommen in den container */}
       <div className="container py-5">
         <section className="mb-5">
           <h3 className="section-title mb-4">Schwierigkeitsgrad</h3>
@@ -58,7 +57,6 @@ function Main() {
         </section>
       </div>
 
-      {/* Diese Linie geht auch über die volle Breite */}
       <div className="dots-divider"></div>
     </div>
   );

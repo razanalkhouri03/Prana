@@ -1,0 +1,48 @@
+/* Die Karte des Formulars */
+.registration-card {
+    background-color: #f2e7e1;
+    border: 2px solid #3D3330;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto; /* Zentriert die Karte */
+}
+
+/* Ausrichtung von Label und Input */
+.form-group-custom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group-custom label {
+    width: 100px; /* Feste Breite für die Beschriftung */
+    color: #3D3330;
+    font-weight: 500;
+}
+
+.form-group-custom input {
+    flex-grow: 1; /* Input füllt den restlichen Platz aus */
+    border: 2px solid #3D3330;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background-color: #fdf8f5;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group-custom input:focus {
+    border-color: #d89a7d; /* Wechselt beim Tippen */
+}
+
+/* Der Anmelden-Button (spezifisch für das Formular) */
+.registration-btn {
+    padding: 10px 60px;
+    font-size: 1.1rem;
+}
+
+.registration-btn:hover {
+    background-color: #3D3330;
+    color: white;
+    transform: scale(1.02);
+}

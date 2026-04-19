@@ -8,7 +8,7 @@ function Header() {
       {/* Obere Sektion: Logo und Kontakt */}
       <div className="container-fluid py-2 bg-white">
         <div className="d-flex justify-content-between align-items-center px-md-5">
-          {/* Logo Platzhalter (Ersetze 'logo.png' mit deinem echten Pfad) */}
+          {/* Logo Platzhalter */}
           <div className="logo-section">
             <img
               src="/Prana.svg"
@@ -57,7 +57,6 @@ function Header() {
       <div className="hero-section">
         {/* Das Bild wird über CSS als Hintergrund gesetzt oder hier als img */}
         <div className="hero-placeholder">
-          {/* Hier kommt dein Yoga-Strand-Bild rein */}
         </div>
       </div>
     </header>
