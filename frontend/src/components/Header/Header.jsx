@@ -19,14 +19,14 @@ function Header() {
           </div>
 
           {/* Kontakt Info rechts */}
-          <div className="contact-info text-end">
+          <div className="contact-info">
             <div className="d-flex align-items-center justify-content-end mb-1">
-              <span className="me-2 small">+49 174 6097458</span>
-              <TelephoneFill size={14} />
+              <TelephoneFill size={14} className="me-2 text-dark-brown" />
+              <span className="small text-dark-brown">+49 174 6097458</span>
             </div>
             <div className="d-flex align-items-center justify-content-end">
-              <span className="me-2 small">info@prana.de</span>
-              <EnvelopeFill size={14} />
+              <EnvelopeFill size={14} className="me-2 text-dark-brown" />
+              <span className="small text-dark-brown">info@prana.de</span>
             </div>
           </div>
         </div>
