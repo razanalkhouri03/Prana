@@ -1,0 +1,36 @@
+/* Haupt-Hintergrund für die Navigationsleiste */
+.custom-navbar {
+    background-color: #3e3633; /* Dunkles Braun aus dem Bild */
+    padding: 10px 0;
+}
+
+.custom-navbar .nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #c5a992 !important; /* Ein sanfter Beige-Ton beim Drüberfahren */
+}
+
+/* Kontakt-Bereich Styling */
+.contact-info {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero-Sektion (Strandbild) */
+.hero-section {
+    width: 100%;
+    height: 450px; /* Höhe je nach Wunsch anpassen */
+    background-image: url('../../../public/Header.jpg'); /* Hier Pfad zum Yoga-Bild */
+    background-size: cover;
+    background-position: center;
+    border-top: 2px solid #3e3633;
+}
+
+/* Falls das Logo eine spezielle Größe braucht */
+.logo-section img {
+    cursor: pointer;
+}
