@@ -3,9 +3,39 @@ import './Formular.css';
 
 const Formular = () => {
   // Funktion zum Abfangen des Formular-Absendens
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Anmeldung abgeschickt!");
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Verhindert das Neuladen der Seite
+
+    // 1. Daten aus dem Formular extrahieren
+    const formData = new FormData(e.target);
+    const data = {
+      name: formData.get("name"),
+      kurs: formData.get("kurs"),
+      email: formData.get("email")
+    };
+
+    try {
+      // 2. Daten an das Backend senden
+      const response = await fetch('http://localhost:8080/add', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert("Anmeldung erfolgreich! ID: " + result.insertedId);
+        e.target.reset(); // Formular leeren
+      } else {
+        alert("Fehler: " + result.error);
+      }
+    } catch (error) {
+      console.error("Verbindungsfehler:", error);
+      alert("Backend nicht erreichbar!");
+    }
   };
 
   return (

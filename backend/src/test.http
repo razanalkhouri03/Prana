@@ -1,0 +1,9 @@
+### Einen neuen Benutzer hinzufügen
+POST http://localhost:8080/add
+Content-Type: application/json
+
+{
+    "name": "Max Mustermann",
+    "kurs": "Einführung",
+    "email": "max@beispiel.de"
+}
